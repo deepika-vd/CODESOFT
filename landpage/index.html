@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Landing page </title>
+    <style>
+        body{
+            font-family: 'Times New Roman', Times, serif;
+            line-height:1.6 ;
+            font-size: medium;
+        }
+       
+
+        header{
+            flex-direction: row;
+            background-color:#363636;
+            color: aliceblue;
+            padding: 20px;
+        }
+        nav ul{
+            list-style: none;
+        }
+        nav ul li{
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a{
+            color:aliceblue;
+            text-decoration: none;
+        }
+        #music{
+            text-align: center;
+            background-color:grey;
+            padding: 100px 20px;
+        }
+        h2{
+            text-align: center;
+        }
+        
+
+        form{
+            display:flex;
+            flex-direction: column;
+            max-width: 30%;
+        }
+        input[type="text"],
+        input[type="email"],
+        textarea{
+            margin-bottom:10px 20px;
+            padding: 10px;
+            bachground-color:#333;
+            
+        }
+        button{
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            border-color: #363636;
+            cursor: pointer;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <header>
+        <nav  >
+            <ul>
+                <li><a href="#about"> ABOUT</a></li>
+                <li><a href="#courses"> COURSES</a></li>
+                <li><a href="#contact"> CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="music">
+            <h1>Welcome to SA RE GA MA</h1>
+            <p> Learn, play & Enjoy!!!</p>
+            <p>Join us to discover your passion...</p>
+        </section>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos inventore molestias fuga voluptatibus aliquid veniam in dignissimos iusto harum explicabo quae iure perspiciatis eaque eius, neque pariatur qui iste provident natus ea omnis aspernatur ut! Eius quaerat vel sint repellendus.
+
+            </p>
+        </section>
+
+        <section id="courses">
+            <h2>Our Courses</h2>
+            <div class="course">
+                <h3>Karnatic music</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto accusamus reprehenderit ipsa cumque placeat quae, dicta possimus quod itaque odio!
+                </p>
+            </div>
+            <div class="course">
+                <h3>Guitar class</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto accusamus reprehenderit ipsa cumque placeat quae, dicta possimus quod itaque odio!
+                </p>
+            </div>
+            <div class="course">
+                <h3>Violin class</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto accusamus reprehenderit ipsa cumque placeat quae, dicta possimus quod itaque odio!
+                </p>
+            </div>
+            
+        </section>
+        <section id="contact">
+            <h2>Contact us</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga distinctio, numquam a iure possimus corporis?
+            </p>
+            <form action="# " >
+                <label for="fname">Name:</label>
+                <input type="text" name="Name" id="name">
+                <label for="femail">Email:</label>
+                <input type="email" name="email" id="email">
+                <label for="text">enter your intrest:</label>
+                <textarea placeholder="Your Msg" ></textarea>
+                <button type="submit">Submit</button>
+
+            </form>
+        </section>
+    </main>
+</body>
+</html>
